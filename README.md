@@ -7,7 +7,8 @@ Keine Geheimnisse (Schlüssel, Tokens, Passwörter, Kundendaten) in diesen Datei
 - `projekte/<name>.md`: Detailstand je Projekt (Vorlage: `projekte/_VORLAGE.md`).
 
 ## Regeln für Claude und Codex
-1. **Start:** `git pull`, dann `INDEX.md` und die Datei des betroffenen Projekts lesen.
+0. Git-Befehle für das Memo immer mit `git -C C:\CodingMemo ...`, nie im Projektordner (dort hängt ein anderes Remote, z. B. Gitea/Coolify).
+1. **Start:** `git -C C:\CodingMemo pull`, dann `INDEX.md` und die Datei des betroffenen Projekts lesen.
 2. **Ende** (nach Code-Änderungen, vor Chat-Ende): Projektdatei und Zeile in `INDEX.md` aktualisieren, dann
    `git add -A && git commit -m "<projekt>: <kurz>" && git push`.
 3. Nur Überprüfbares als Fakt eintragen; Vermutungen kennzeichnen. Details mit Pfad verweisen, nicht kopieren.
