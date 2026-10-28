@@ -10,7 +10,7 @@ Pfad: `C:\LIBERO\libero-vom-talent-zur-legende` | Zuletzt: 2026-10-28, PC, Claud
 
 ## Stand (laut `LIBERO_WEITERARBEITEN.md`, nicht von mir geprüft)
 - P05 im Presseteil abgeschlossen, Spiel 0.8.48 / Editor 0.4.5. P01–P04 gebaut und technisch geprüft; M01–M04 und B01–B06 geprüft.
-- 28.10. abends (von mir geprüft): P34 browsergeprüft, Restmatrix `Spiel/docs/PRESSE_P05_RESTMATRIX.json` ohne offene Entscheidungen, Gesamtlauf 304 Dateien / 2270 Tests bestanden, tsc ohne Fehler. Startwerte und Berichtigung nach Ruhestand von Marcus bestätigt (so lassen). Reporterbogen-IDs geprüft (tests/press-reporter-ids.test.ts, 2 bestanden): P05 Presseteil zu. 381 Dateien seit 0.8.30 uncommittet.
+- 28.10. abends (von mir geprüft): P34 browsergeprüft, Restmatrix `Spiel/docs/PRESSE_P05_RESTMATRIX.json` ohne offene Entscheidungen, Gesamtlauf 304 Dateien / 2270 Tests bestanden, tsc ohne Fehler. Startwerte und Berichtigung nach Ruhestand von Marcus bestätigt (so lassen). Reporterbogen-IDs geprüft (tests/press-reporter-ids.test.ts, 2 bestanden): P05 Presseteil zu. Alles committet als d043f64 und auf backup gepusht.
 - Baufolge: Presse, dann Privatleben, dann Nationalmannschaft N01–N12.
 - Kein Git-Repo unter `C:\LIBERO` (Prüfung 2026-10-28); Stand deshalb nur über die Statusdateien erkennbar.
 
